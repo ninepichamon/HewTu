@@ -1,0 +1,54 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HewTU"
+             x:Class="HewTU.MenuPage"
+             Title="MenuPage">
+
+    <!-- ใช้ CollectionView แสดงรายการเมนู -->
+    <CollectionView ItemsSource="{Binding MenuItems}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="10"
+                      RowDefinitions="Auto, Auto">
+                    
+                    <!-- เมนูชื่อและราคา -->
+                    <HorizontalStackLayout Grid.Row="1"
+                                           Spacing="10"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="FillAndExpand">
+                        <!-- ชื่อเมนูและราคา -->
+                        <Image Grid.Row="0"
+                           Source="{Binding Image}"
+                           HeightRequest="200"/>
+                        <StackLayout Spacing="5"
+                                HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Name}"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Start"/>
+                            <Label Text="{Binding Price}"
+                                   FontSize="16"
+                                   TextColor="Gray"
+                                   HorizontalOptions="Start"/>
+                        </StackLayout>
+
+                        <!-- ปุ่ม ImageButton -->
+                        <ImageButton HeightRequest="40"
+                                     WidthRequest="40"
+                                     Command="{Binding Source={RelativeSource AncestorType={x:Type local:MenuPage}}, Path=NavigateToDetailsCommand}"
+                                     CommandParameter="{Binding .}">
+                            <ImageButton.Source>
+                                <FontImageSource Glyph="+"
+                                                 FontFamily="Default"
+                                                 Size="24"
+                                                 Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                    </HorizontalStackLayout>
+
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+</ContentPage>

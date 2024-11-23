@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HewTU.StorePage"
+             Title="Hew TU">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10"
+                             Padding="10">
+            
+            <!-- Header Section -->
+            <VerticalStackLayout Padding="30, 20">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Good Morning,&#10;"
+                                  TextColor="Black"
+                                  FontFamily="Palatino"
+                                  FontSize="25"
+                                  FontAttributes="Bold"/>
+                            <Span Text="Dx212&#10;"
+                                  TextColor="#FFA0148B"
+                                  FontFamily="Palatino"
+                                  FontSize="25"
+                                  FontAttributes="Bold"/>
+                            <Span Text="Location > CITU Thammasat (TPC);"
+                                  TextColor="#FF585252"
+                                  FontSize="15"
+                                  FontAttributes="Italic"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </VerticalStackLayout>
+
+            <!-- Special Offer Section -->
+            <VerticalStackLayout Padding="20, 0" Spacing="5">
+                <Border StrokeShape="RoundRectangle 20"
+                        StrokeThickness="0"
+                        BackgroundColor="#FFFFFAB2"
+                        VerticalOptions="Start"
+                        Padding="20">
+                    <Grid ColumnDefinitions="*,*"
+                          ColumnSpacing="50">
+                        <VerticalStackLayout Grid.Column="0" Spacing="10">
+                            <Label Text="Special Offer"
+                                   TextColor="DarkRed"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   VerticalOptions="Center"/>
+                            <Label Text="Enjoy deals of up to 50% Off"/>
+                            <Button Text="Get it now"
+                                    FontSize="15"
+                                    BackgroundColor="HotPink"
+                                    TextColor="White"
+                                    FontAttributes="Bold"
+                                    CornerRadius="20"/>
+                        </VerticalStackLayout>
+                        <Image Grid.Column="1"
+                               Source="coupon.png"
+                               HeightRequest="140"
+                               WidthRequest="140"/>
+                    </Grid>
+                </Border>
+                <SearchBar Placeholder="What would you like to eat?"
+                           BackgroundColor="#FFFFFAB2"
+                           CancelButtonColor="Red"
+                           TextChanged="OnSearchTextChanged"/>
+                <Label Text="See More >"
+                       FontFamily="Palatino"
+                       TextColor="gray"
+                       TextDecorations="Underline"
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+            </VerticalStackLayout>
+
+            <!-- Product Menu Section -->
+            <Grid ColumnDefinitions="*,*"
+                  RowDefinitions="Auto,Auto"
+                  RowSpacing="10"
+                  ColumnSpacing="10"
+                  Padding="30, 5, 30, 0">
+
+                <!-- Bubble Tea -->
+                <Border Grid.Row="0" Grid.Column="0" StrokeShape="RoundRectangle 20" BackgroundColor="#FFFFFAB2">
+                    <StackLayout Spacing="5" HorizontalOptions="Center">
+                        <ImageButton Source="chanom.JPG"
+                                     HeightRequest="140"
+                                     WidthRequest="140"
+                                     Padding="10"
+                                     Command="{Binding OnItemTappedCommand}"
+                                     Clicked="NavigateToNewMenu"/>
+                        <Label Text="Bubble Tea 🧋"
+                               FontFamily="Palatino"
+                               TextColor="#FF110000"
+                               FontSize="18"
+                               Padding="10"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Border>
+
+                <!-- Steak -->
+                <Border Grid.Row="0" Grid.Column="1" StrokeShape="RoundRectangle 20" BackgroundColor="#FFFFFAB2">
+                    <StackLayout Spacing="5" HorizontalOptions="Center">
+                        <ImageButton Source="steak.JPG"
+                                     HeightRequest="140"
+                                     WidthRequest="140"
+                                     Padding="10"
+                                     Clicked="NavigateToSteakMenu"/>
+                        <Label Text="Steak 🥩"
+                               FontFamily="Palatino"
+                               TextColor="#FF110000"
+                               FontSize="18"
+                               Padding="10"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Border>
+
+                <!-- Cake Shop -->
+                <Border Grid.Row="1" Grid.Column="0" StrokeShape="RoundRectangle 20" BackgroundColor="#FFFFFAB2">
+                    <StackLayout Spacing="5" HorizontalOptions="Center">
+                        <ImageButton Source="cakelogo.jpg"
+                                     HeightRequest="140"
+                                     WidthRequest="140"
+                                     Padding="10"
+                                     Clicked="NavigateToCakeMenu"/>
+                        <Label Text="Cake Shop 🍰"
+                               FontFamily="Palatino"
+                               TextColor="#FF110000"
+                               FontSize="18"
+                               Padding="10"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Border>
+
+                <!-- Mala -->
+                <Border Grid.Row="1" Grid.Column="1" StrokeShape="RoundRectangle 20" BackgroundColor="#FFFFFAB2">
+                    <StackLayout Spacing="5" HorizontalOptions="Center">
+                        <ImageButton Source="malalogo.jpg"
+                                     HeightRequest="140"
+                                     WidthRequest="140"
+                                     Padding="10"
+                                     Clicked="NavigateToMalaMenu"/>
+                        <Label Text="Mala 🥘"
+                               FontFamily="Palatino"
+                               TextColor="#FF110000"
+                               FontSize="18"
+                               Padding="10"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Border>
+            </Grid>
+
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

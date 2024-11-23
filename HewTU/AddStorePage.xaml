@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HewTU.AddStorePage"
+             Title="Add Store">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- ชื่อร้านค้า -->
+            <Label Text="Store Name" FontSize="18" TextColor="Black" />
+            <Entry Placeholder="Enter store name" x:Name="StoreNameEntry" />
+
+            <!-- ประเภทของร้าน -->
+            <Label Text="Store Type" FontSize="18" TextColor="Black" />
+            <Picker x:Name="StoreTypePicker" Title="Select store type">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Restaurant</x:String>
+                        <x:String>Cafe</x:String>
+                        <x:String>Shop</x:String>
+                        <x:String>Other</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <!-- คำอธิบายร้าน -->
+            <Label Text="Description" FontSize="18" TextColor="Black" />
+            <Editor Placeholder="Enter description" HeightRequest="100" x:Name="DescriptionEditor" />
+
+            <!-- ที่อยู่ -->
+            <Label Text="Address" FontSize="18" TextColor="Black" />
+            <Entry Placeholder="Enter address" x:Name="AddressEntry" />
+
+            <!-- เบอร์โทรศัพท์ -->
+            <Label Text="Phone Number" FontSize="18" TextColor="Black" />
+            <Entry Placeholder="Enter phone number" Keyboard="Telephone" x:Name="PhoneEntry" />
+
+            <!-- เวลาเปิด-ปิด -->
+            <Label Text="Opening Hours" FontSize="18" TextColor="Black" />
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto">
+                <Entry Placeholder="Opening time (e.g., 08:00)" x:Name="OpeningTimeEntry" />
+                <Entry Placeholder="Closing time (e.g., 18:00)" x:Name="ClosingTimeEntry" Grid.Column="1" />
+            </Grid>
+
+            <!-- รูปภาพ -->
+            <Label Text="Upload Images" FontSize="18" TextColor="Black" />
+            <Button Text="Choose Images" x:Name="UploadImageButton" />
+
+            <!-- ปุ่มบันทึก -->
+            <Button Text="Save Store" BackgroundColor="#FFA0148B" TextColor="White" Clicked="OnSaveButtonClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

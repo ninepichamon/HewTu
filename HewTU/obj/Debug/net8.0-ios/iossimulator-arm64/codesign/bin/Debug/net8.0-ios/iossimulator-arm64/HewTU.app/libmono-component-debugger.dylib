@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/ninetynine/project/HewTU/HewTU/bin/Debug/net8.0-ios/iossimulator-arm64/HewTU.app/libmono-component-debugger.dylib

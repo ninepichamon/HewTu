@@ -1,0 +1,179 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HewTU
+build_property.ProjectDir = /Users/ninetynine/project/HewTU/HewTU/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/ninetynine/project/HewTU/HewTU/AddStorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.AddStorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddStorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddStorePage.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/CakeMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.CakeMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = CakeMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = CakeMenu.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/BlueberryCheesePie.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.BlueberryCheesePie.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/BlueberryCheesePie.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/BlueberryCheesePie.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/ChocolateCake.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.ChocolateCake.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/ChocolateCake.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/ChocolateCake.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/CreamCornPorkchop.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.CreamCornPorkchop.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/CreamCornPorkchop.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/CreamCornPorkchop.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/GreenTea.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.GreenTea.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/GreenTea.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/GreenTea.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/MalaStick.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.MalaStick.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/MalaStick.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/MalaStick.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/Malatang.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.Malatang.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/Malatang.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/Malatang.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/MalaTomyum.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.MalaTomyum.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/MalaTomyum.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/MalaTomyum.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/MilkTea.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.MilkTea.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/MilkTea.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/MilkTea.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/PepperPorkSteak.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.PepperPorkSteak.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/PepperPorkSteak.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/PepperPorkSteak.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/SalmonSteak.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.SalmonSteak.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/SalmonSteak.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/SalmonSteak.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/StrawberryShortCake.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.StrawberryShortCake.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/StrawberryShortCake.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/StrawberryShortCake.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/DescriptionMenu/Thaitea.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.DescriptionMenu.Thaitea.xaml
+build_metadata.AdditionalFiles.TargetPath = DescriptionMenu/Thaitea.xaml
+build_metadata.AdditionalFiles.RelativePath = DescriptionMenu/Thaitea.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/MalaMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.MalaMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = MalaMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = MalaMenu.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MenuPage.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/NewMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.NewMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = NewMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = NewMenu.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/OrderSummary.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.OrderSummary.xaml
+build_metadata.AdditionalFiles.TargetPath = OrderSummary.xaml
+build_metadata.AdditionalFiles.RelativePath = OrderSummary.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/SteakMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.SteakMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = SteakMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = SteakMenu.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/StorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.StorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = StorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = StorePage.xaml
+
+[/Users/ninetynine/project/HewTU/HewTU/SuccessPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HewTU.SuccessPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SuccessPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SuccessPage.xaml
